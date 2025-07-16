@@ -2,23 +2,7 @@ import { useState } from 'react';
 import 'react-image-lightbox/style.css';
 import Lightbox from 'react-image-lightbox';
 
-const images = [
-  {
-    src: process.env.PUBLIC_URL + '/art/Chikko_luv_holiday.png',
-    title: 'Chikko Love Holiday',
-    tag: 'Digital Painting',
-  },
-  {
-    src: process.env.PUBLIC_URL + '/art/k1_ded.png',
-    title: 'K1 Dead',
-    tag: 'Digital Painting',
-  },
-  {
-    src: process.env.PUBLIC_URL + '/art/buffsona.jpg',
-    title: 'Nature’s Form',
-    tag: 'Digital Painting',
-  },
-];
+
 
 export default function ArtShowcase() {
   const [isOpen, setIsOpen] = useState(false);
