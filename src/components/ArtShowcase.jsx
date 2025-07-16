@@ -4,17 +4,17 @@ import Lightbox from 'react-image-lightbox';
 
 const images = [
   {
-    src: 'art/chikko_luv_holiday.png',
+    src: 'public/Art/Chikko_luv_holiday.png',
     title: 'Chikko Love Holiday',
     tag: 'Digital Painting',
   },
   {
-    src: 'art/k1_ded.png',
+    src: 'public/Art/k1_ded.png',
     title: 'K1 Dead',
     tag: 'Digital Painting',
   },
   {
-    src: 'art/buffsona.jpg',
+    src: 'public/Art/buffsona.jpg',
     title: 'Nature’s Form',
     tag: 'Digital Painting',
   },
