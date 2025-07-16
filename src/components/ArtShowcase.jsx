@@ -4,13 +4,13 @@ import Lightbox from 'react-image-lightbox';
 
 const images = [
   {
-    src: 'src/assets/Art/CHEEKO_LOVE_HOLIUDAY.png',
+    src: 'src/assets/Art/chikko_luv.png',
     title: 'Cheeko Love Holiday',
     tag: 'Digital Painting',
   },
   {
-    src: 'src/assets/Art/emote res.png',
-    title: 'K1 Dead',
+    src: 'src/assets/Art/k1_cool.png',
+    title: 'KCool',
     tag: 'Digital Painting',
   },
   {
