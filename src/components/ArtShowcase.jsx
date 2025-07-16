@@ -50,20 +50,22 @@ export default function ArtShowcase() {
       </div>
 
       {isOpen && (
-        <Lightbox
-          mainSrc={images[photoIndex].src}
-          nextSrc={images[(photoIndex + 1) % images.length].src}
-          prevSrc={images[(photoIndex + images.length - 1) % images.length].src}
-          onCloseRequest={() => setIsOpen(false)}
-          onMovePrevRequest={() =>
-            setPhotoIndex((photoIndex + images.length - 1) % images.length)
-          }
-          onMoveNextRequest={() =>
-            setPhotoIndex((photoIndex + 1) % images.length)
-          }
-          imageCaption={`${images[photoIndex].title} – ${images[photoIndex].tag}`}
-        />
-      )}
+  <Lightbox
+    mainSrc={images[photoIndex].src}
+    nextSrc={images[(photoIndex + 1) % images.length].src}
+    prevSrc={images[(photoIndex + images.length - 1) % images.length].src}
+    onCloseRequest={() => setIsOpen(false)}
+    onMovePrevRequest={() =>
+      setPhotoIndex((photoIndex + images.length - 1) % images.length)
+    }
+    onMoveNextRequest={() =>
+      setPhotoIndex((photoIndex + 1) % images.length)
+    }
+    imageCaption={`${images[photoIndex].title} – ${images[photoIndex].tag}`}
+    enableZoom={true}
+  />
+)}
+
     </section>
   );
 }
