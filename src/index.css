@@ -1,4 +1,10 @@
 @import url(https://db.onlinewebfonts.com/c/2b0a785e5bf68ad428cf24d74bb5b9ad?family=Volte);
+.ril-image {
+  max-width: 90vw !important;
+  max-height: 90vh !important;
+  object-fit: contain;
+}
+
 * {
   margin: 0;
   padding: 0;
