@@ -1,17 +1,16 @@
 import { useState } from 'react';
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
-
+import 'react-image-lightbox/style.css';
+import Lightbox from 'react-image-lightbox';
 
 const images = [
   {
-    src: 'src/assets/Art/chikko_luv.png',
+    src: 'src/assets/Art/CHEEKO_LOVE_HOLIUDAY.png',
     title: 'Cheeko Love Holiday',
     tag: 'Digital Painting',
   },
   {
-    src: 'src/assets/Art/k1_cool.png',
-    title: 'KCool',
+    src: 'src/assets/Art/emote res.png',
+    title: 'K1 Dead',
     tag: 'Digital Painting',
   },
   {

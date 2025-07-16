@@ -2,8 +2,7 @@ export default function Hero() {
   return (
     <section class="hero">
   <h1>Hi, I’m Kae</h1>
-  <img src="src/assets/Art/k1_
-  cool.png" alt="Kae's photo" class="hero-photo" width="250" height="250"/>
+  <img src="src/assets/Art/k1 cool.png" alt="Kae's photo" class="hero-photo" width="250" height="250"/>
   <p>Aspiring Creative Developer & Technologist</p>
   
   <div class="hero-buttons">
