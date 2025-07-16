@@ -2,20 +2,19 @@ import { useState } from 'react';
 import 'react-image-lightbox/style.css';
 import Lightbox from 'react-image-lightbox';
 
-const base = '/K1-SITE/';
 const images = [
   {
-    src: `${base}art/chikko_luv_holiday.png`,
-    title: 'Cheeko Love Holiday',
+    src: 'art/chikko_luv_holiday.png',
+    title: 'Chikko Love Holiday',
     tag: 'Digital Painting',
   },
   {
-    src: `${base}art/k1_ded.png`,
+    src: 'art/k1_ded.png',
     title: 'K1 Dead',
     tag: 'Digital Painting',
   },
   {
-    src: `${base}art/buffsona.jpg`,
+    src: 'art/buffsona.jpg',
     title: 'Nature’s Form',
     tag: 'Digital Painting',
   },
