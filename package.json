@@ -3,6 +3,8 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://kdavis00.github.io/K1-SITE"
+
     "scripts": {
         "dev": "vite",
         "build": "vite build",

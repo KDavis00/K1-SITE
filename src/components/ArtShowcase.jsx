@@ -2,23 +2,24 @@ import { useState } from 'react';
 import 'react-image-lightbox/style.css';
 import Lightbox from 'react-image-lightbox';
 
+const baseURL = process.env.NODE_ENV === 'production'
+  ? process.env.PUBLIC_URL
+  : '';
+
 const images = [
   {
-    src: '/K1-SITE/art/Chikko_luv_holiday.png',
-    title: 'Chikko Love Holiday',
+    src: `${baseURL}/art/k1-cool.png`,
+    title: 'Cool K1',
     tag: 'Digital Painting',
   },
   {
-    src: '/K1-SITE/art/k1_ded.png',
-    title: 'K1 Dead',
-    tag: 'Digital Painting',
-  },
-  {
-    src: '/K1-SITE/art//buffsona.jpg',
+    src: `${baseURL}/art/buffsona.jpg`,
     title: 'Nature’s Form',
     tag: 'Digital Painting',
   },
 ];
+
+
 
 
 
