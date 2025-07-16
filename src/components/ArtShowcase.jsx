@@ -2,27 +2,25 @@ import { useState } from 'react';
 import 'react-image-lightbox/style.css';
 import Lightbox from 'react-image-lightbox';
 
-import img1 from '/assets/Art/Chikko_luv_holiday.png';
-import img2 from '/assets/Art/k1_ded.png';
-import img3 from '/assets/Art/buffsona.jpg';
-
+const base = '/K1-SITE/';
 const images = [
   {
-    src: img1,
+    src: `${base}art/chikko_luv_holiday.png`,
     title: 'Cheeko Love Holiday',
     tag: 'Digital Painting',
   },
   {
-    src: img2,
+    src: `${base}art/k1_ded.png`,
     title: 'K1 Dead',
     tag: 'Digital Painting',
   },
   {
-    src: img3,
-    title: 'Natures Form',
+    src: `${base}art/buffsona.jpg`,
+    title: 'Nature’s Form',
     tag: 'Digital Painting',
   },
 ];
+
 
 
 export default function ArtShowcase() {
